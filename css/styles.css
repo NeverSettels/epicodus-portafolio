@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .jumbotron img {
     border-radius: 50%;
     width: 20vw;
@@ -15,12 +19,33 @@
 .container{
     padding-top: 5vh;
 }
+.project-container{
+    padding: 0 5vw;
+    width: 99vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 10px 20px black inset;
+}
 .card-container{
     display: flex;
     justify-content: space-evenly;
 }
 .links{
+    height: 150px;
     display: flex;
     justify-content: space-evenly;
- 
+    align-items: center;
+}
+
+.links img{
+    height: 76px;
+    width: 76px;
+    transition: all 2s;
+}
+
+.links img:hover{
+    width: 128px;
+    height: 128px
 }
