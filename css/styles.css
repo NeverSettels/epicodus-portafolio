@@ -5,11 +5,12 @@ body{
 .jumbotron img {
     border-radius: 50%;
     width: 20vw;
-    box-shadow: 5px 10px 8px #888888;
+    
     transition: all 2s;
 }
 .jumbotron img:hover {
     width: 30vw;
+    box-shadow: 5px 10px 8px #888888;
 }
 .jum-container{
     display: flex;
@@ -26,11 +27,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    box-shadow: 0px 10px 20px black inset;
+    box-shadow: 0 0px 20px black inset;
+    background: #dfdfdf
 }
 .card-container{
     display: flex;
     justify-content: space-evenly;
+}
+.card{
+    box-shadow: 5px 10px 8px #888888;
 }
 .links{
     height: 150px;
@@ -43,9 +48,46 @@ body{
     height: 76px;
     width: 76px;
     transition: all 2s;
+    
 }
 
 .links img:hover{
     width: 128px;
     height: 128px
+}
+.about-container{
+    padding: 5vh 5vw;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.work-ex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.skill-lists{
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.skill-lists ul{
+    width: 20%;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
+    background: lightblue;
+    box-shadow: 5px 10px 8px #888888;
+
+   
+}
+
+.skill-lists ul strong{
+    text-decoration: underline;
+    
 }
