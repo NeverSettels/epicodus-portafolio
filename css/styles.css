@@ -15,3 +15,12 @@
 .container{
     padding-top: 5vh;
 }
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
