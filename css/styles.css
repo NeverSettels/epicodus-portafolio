@@ -1,9 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    color: #2B4141;
+    background: #7E8287;
+}
+h1{
+    color: #0EB1D2
 }
 .jumbotron{
     margin-top: 5vh;
+    background-color: #DEDBD8;
 }
 .jumbotron img {
     border-radius: 50%;
@@ -13,7 +19,7 @@ body{
 }
 .jumbotron img:hover {
     width: 30vw;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #5d5d5d;
 }
 .jum-container{
     display: flex;
@@ -31,14 +37,14 @@ body{
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0px 20px black inset;
-    background: #dfdfdf
+    background: #8AB9B5
 }
 .card-container{
     display: flex;
     justify-content: space-evenly;
 }
 .card{
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #5d5d5d;
 }
 .links{
     height: 150px;
@@ -83,8 +89,8 @@ body{
     padding: 2%;
     list-style: none;
     text-align: center;
-    background: lightblue;
-    box-shadow: 5px 10px 8px #888888;
+    background: #0EB1D2;
+    box-shadow: 5px 10px 8px #5d5d5d;
 
    
 }
@@ -95,12 +101,13 @@ body{
 }
 
 .side-card{
-    padding: 10px;
+    padding: 20px;
     margin: 20px 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: #888888 1px solid;
+    border-radius: 10px;
+    background: #7E8287;
 }
 .side-card div {
     padding: 20px; 
