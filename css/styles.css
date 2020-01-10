@@ -1,15 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    color: #2B4141;
-    background: #7E8287;
+    color: #2D3142;
+    background: #2D3142;
 }
 h1{
-    color: #0EB1D2
+    color: #81C14B
 }
 .jumbotron{
     margin-top: 5vh;
-    background-color: #DEDBD8;
+    background-color: #BFC0C0;
 }
 .jumbotron img {
     border-radius: 50%;
@@ -45,7 +45,18 @@ h1{
 }
 .card{
     box-shadow: 5px 10px 8px #5d5d5d;
+    
 }
+.btn-primary{
+    background: none;
+    border: #81C14B 1px solid;
+    color: #81C14B
+}
+.btn-primary:hover{
+    background: #81C14B;
+    border: #81C14B 1px solid;
+}
+
 .links{
     height: 150px;
     display: flex;
@@ -89,7 +100,7 @@ h1{
     padding: 2%;
     list-style: none;
     text-align: center;
-    background: #0EB1D2;
+    background: #8AB9B5;
     box-shadow: 5px 10px 8px #5d5d5d;
 
    
@@ -107,7 +118,10 @@ h1{
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    background: #7E8287;
+    background:#F3A096;
+    color: #28262C;
+    box-shadow: 5px 10px 8px #5d5d5d;
+   
 }
 .side-card div {
     padding: 20px; 
