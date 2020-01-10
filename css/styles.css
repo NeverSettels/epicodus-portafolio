@@ -1,0 +1,9 @@
+.jumbotron img {
+    border-radius: 50%;
+    width: 20vw;
+}
+.jum-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
