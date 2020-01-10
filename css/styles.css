@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.jumbotron{
+    margin-top: 5vh;
+}
 .jumbotron img {
     border-radius: 50%;
     width: 20vw;
@@ -61,8 +64,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-}
+ }
 .work-ex{
     width: 100%;
     display: flex;
@@ -90,4 +92,16 @@ body{
 .skill-lists ul strong{
     text-decoration: underline;
     
+}
+
+.side-card{
+    padding: 10px;
+    margin: 20px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #888888 1px solid;
+}
+.side-card div {
+    padding: 20px; 
 }
