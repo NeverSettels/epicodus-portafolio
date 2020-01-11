@@ -3,9 +3,13 @@ body{
     padding: 0;
     color: #2D3142;
     background: #2D3142;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     color: #0B3954
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bowlby One SC', cursive;
 }
 .jumbotron{
     margin-top: 5vh;
@@ -118,11 +122,32 @@ h1{
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    background:#F3A096;
+    background:#607B7D;
     color: #28262C;
     box-shadow: 5px 10px 8px #5d5d5d;
    
 }
 .side-card div {
     padding: 20px; 
+}
+
+footer{
+    margin-top: 10vh;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #375D73;
+    color: #082536;
+}
+
+footer a{
+    color: #082536;
+}
+footer a:hover{
+color: #81C14B;
+}
+footer span{
+    margin: 0 5px;
 }
