@@ -16,7 +16,9 @@ _A basic CSS and HTML program to showcase some of my previous projects and get s
 3. Step three: Clone this repository.
 4. Step four: Open the repository.
 5. Step five: Drag the html file into your broswer. 
-6. Step six: Start picking your toppings!
+6. Step six: Start picking your toppings! 
+
+or check it out at [My portafolio](https://neversettels.github.io/epicodus-portafolio/)
 
 ## **Known Bugs**
 
